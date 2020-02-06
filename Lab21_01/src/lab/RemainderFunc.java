@@ -27,7 +27,7 @@ public class RemainderFunc {
 		
 		System.out.println("");
 		System.out.println("Multiples of 2 between 1 and " + maxNum + " (inclusive) are:");
-		for(int i = 1; i <= maxNum; i++) {
+		for(int i = 1; i < maxNum; i++) {
 			if((i % divisor) == 0) {						// if the divisor evenly goes into i
 				System.out.println((i / divisor) * divisor);// the amount of times the divisor goes into i * the divisor = factor
 				nums = true; // values were printed
